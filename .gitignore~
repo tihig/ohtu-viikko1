@@ -1,4 +1,7 @@
+.xxx
 target
+.[oa]
+EOF
 *.xxx
 
 
