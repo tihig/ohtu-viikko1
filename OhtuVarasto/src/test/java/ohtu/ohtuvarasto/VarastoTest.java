@@ -64,13 +64,6 @@ public class VarastoTest {
       assertEquals(0, pieni.getSaldo(), vertailuTarkkuus);
    }
    @Test
-   public void uudellaVarastollaOikeaTilavuusAlleSaldolla4() {
-      Varasto pieni = new Varasto(-1, 3);
-      
-      //ei jostaan syystä laita tilavuutta oikein???
-      assertEquals(0.0, pieni.getSaldo(), vertailuTarkkuus);
-   }
-   @Test
    public void uudellaVarastollaOikeaTilavuusAlleSaldolla4B() {
       Varasto pieni = new Varasto(-1, 3);
       
